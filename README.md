@@ -7,7 +7,7 @@ This open source application is free to use or modify, however, it does not incl
 
 This COVID-19 Questionnaire solution is a public preview of parts of a custom solution which was purpose-built for Glenbrook High School District 225 in Northfield Township, Cook County, Illinois.
 
-This public previvew release has been modified to make it more suitable for use by other districts by removing features and integrations which are Glenbrook-specific. The application is being provided as-is free of charge for any school district with the development and infrastructure resources to customize and deploy it for their own use.
+This public preview release has been modified to make it more suitable for use by other districts by removing features and integrations which are Glenbrook-specific. The application is being provided as-is free of charge for any school district with the development and infrastructure resources to customize and deploy it for their own use.
 
 If you are interested in a turnkey solution, visit https://www.soliantconsulting.com/school-covid-questionnaire/ for more information.
 
@@ -19,7 +19,7 @@ Note: FMS on MacOS not supported
 
 ## Scale
 
-A single stack instance can support up to 10k users. For larger districts, user data must be split into separate groups of 10k users or less. For example, K-6 and 7-12 groups.
+A single stack instance can support up to 5k users. For larger districts, user data must be split into separate groups of 5k users or less. For example, K-6 and 7-12 groups.
 
 ## Data Format
 
@@ -35,29 +35,24 @@ Data columns must be in the following order with no header row. Non-required co
 
 | Column | Required
 | --- | ---
-| SchoolID | X
 | Employee ID | X
-| DOB | X
 | Last Name | X
 | First Name | X
-| Middle Name |  
-| Prefix |  
-| Department |  
-| Location Code |  
-| Location Description |  
-| Active |  
+| DOB | X
+| SchoolID | X
+| Department |
 
 #### Student Table
 
 | Column | Required
 | --- | ---
 | School ID | X
-| Student ID | X
-| Last Name | X
 | First Name | X
-| Grade |  
-| Gender |  
+| Last Name | X
 | DOB | X
+| Student ID | X  
+| Grade |  
+| Gender |
 | Street |  
 | City |  
 | State |  
